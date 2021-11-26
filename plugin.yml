@@ -1,0 +1,25 @@
+name: RPointAPI
+main: RPointAPI\RPoint
+author: pmmdst | Editor : KhanggTrann
+translator: KhanggTrann
+api: 3.0.0
+version: 0.0.2 #Beta 0.0.2
+#Yêu cầu : Không đổi tên tác giả, pay respect to him
+
+commands:
+ myrpoint:
+  description: Thể hiện số RPoint của bạn
+  permission: myrpoint.pmmdst
+  default: true
+ setrpoint:
+  description: Chỉnh sửa số RPoint của bạn
+  permission: setrpoint.pmmdst
+  default: op
+ toprpoint:
+  description: Bảng xếp hạng RPoint Server
+  permission: toprpoint.pmmdst
+  default: true
+ payrpoint:
+  description: Trao RPoint cho người khác
+  permission: payrpoint.pmmdst
+  default: true
